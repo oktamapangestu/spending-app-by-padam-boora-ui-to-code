@@ -1,0 +1,146 @@
+* {
+	list-style: none;
+}
+
+@font-face {
+    font-family: source-sans-regular;
+    src: url(font/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: source-sans-semibold;
+    src: url(font/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: source-sans-bold;
+    src: url(font/SourceSansPro-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+	font-family: source-sans-regular;
+	border-radius: 10px;
+	background-color: #F2EFF7;
+}
+
+#bagian-pertama {
+	
+background: rgba(73,155,234,1);
+background: -moz-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(89,0,161,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(89,0,161,1)));
+background: -webkit-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(89,0,161,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(89,0,161,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(89,0,161,1) 100%);
+background: linear-gradient(135deg, rgba(73,155,234,1) 0%, rgba(89,0,161,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#5900a1', GradientType=1 );
+	color: #fff;
+}
+
+ul.navigasi {
+	padding: 0;
+}
+
+ul.navigasi > li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+ul.navigasi > li > a {
+	color: #bbb;
+	letter-spacing: 1px;
+	font-family: source-sans-semibold;
+	text-decoration: none;
+}
+
+ul.navigasi > li > a.active {
+	color: #fff;
+}
+
+ul.navigasi > li > a.active::after {
+	content: " ";
+	display: block;
+	width: 40%;
+	height: 2px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 8px;
+	border-radius: 10px;
+}
+
+ul.navigasi > li > a:hover {
+	color: #fff;
+}
+
+ul.navigasi > li > a:hover::after {
+	content: " ";
+	display: block;
+	width: 40%;
+	height: 2px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 8px;
+	border-radius: 10px;
+}
+
+h6.spending {
+	letter-spacing: 1px;
+}
+
+h6.money {
+	font-family: source-sans-bold;
+	font-size: 1.5em;
+}
+
+#bagian-kedua {
+	background-color: #F2EFF7;
+	height: 330px;
+	overflow: scroll;
+}
+
+h6.recent-txt {
+	font-family: source-sans-semibold;
+	font-size: 0.9em;
+}
+
+h5.product-txt {
+	font-family: source-sans-regular;
+	letter-spacing: 0.5px;
+	font-size: 1.3em;
+}
+
+h6.tanggal-txt {
+	font-family: source-sans-bold;
+	font-size: 0.8rem;
+    color: #949494;
+}
+
+h6.approved-txt {
+	font-family: source-sans-regular;
+	font-size: 0.8rem;
+    color: #949494;
+}
+
+img.menu-tengah {
+	position: relative;
+    top: -14px;
+}
+
+
+.footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+	-webkit-box-shadow: 0px -2px 10px 0px rgba(227,227,227,0.89);
+	-moz-box-shadow: 0px -2px 10px 0px rgba(227,227,227,0.89);
+	box-shadow: 0px -2px 10px 0px rgba(227,227,227,0.89);
+}
