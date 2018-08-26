@@ -5,7 +5,9 @@ A mobile web layout made with HTML and CSS, using Boostrap 4. Thank you for Pada
 https://dribbble.com/shots/3003524-Spending-App  
 by : Padam Bora
 
-![alt text](https://cdn.dribbble.com/users/140123/screenshots/3003524/spending_app.png)
-
 # UI to Code
+by : Oktama Pangestu
+
+![alt text](https://image.ibb.co/gWctF9/Screenshot_from_2018_08_26_22_26_54.png)
+
 
